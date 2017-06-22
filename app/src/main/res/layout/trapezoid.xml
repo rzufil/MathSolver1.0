@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/trapezoidText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose the smallest and biggest horizontal sides, and vertical height of the trapezoid:"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/trapezoidText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smallest Horizontal Side"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/trapezoidn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/trapezoidText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biggest Horizontal Side"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/trapezoidn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/trapezoidText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vertical Height"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/trapezoidn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number|numberDecimal"
+        android:textAlignment="center"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/trapezoidEqual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/trapezoidResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

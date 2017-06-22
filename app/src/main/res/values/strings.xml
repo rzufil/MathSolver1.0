@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Math Solver 1.0</string>
+    <string name="add">Addition</string>
+    <string name="sub">Subtraction</string>
+    <string name="mul">Multiplication</string>
+    <string name="div">Division</string>
+    <string name="mod">Mod</string>
+    <string name="fact">Factorial</string>
+    <string name="sqrt">Square Root</string>
+    <string name="exp">Exponents</string>
+    <string name="perc">Percentage</string>
+    <string name="areas">Areas</string>
+    <string name="square">Square</string>
+    <string name="circle">Circle</string>
+    <string name="triangle">Triangle</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="trapezoid">Trapezoid</string>
+    <string name="vol">Volumes</string>
+    <string name="cube">Cube</string>
+    <string name="cylinder">Cylinder</string>
+    <string name="pyramid">Pyramid</string>
+    <string name="cone">Cone</string>
+    <string name="sphere">Sqhere</string>
+    <string name="conv">Converter</string>
+    <string name="temperature">Temperature</string>
+    <string name="length">Length</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+    <string name="formulas">Formulas</string>
+    <string-array name="temp">
+        <item></item>
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+    <string-array name="len">
+        <item></item>
+        <item>Centimeter</item>
+        <item>Meter</item>
+        <item>Kilometer</item>
+        <item>Inch</item>
+        <item>Foot</item>
+        <item>Yard</item>
+        <item>Mile</item>
+    </string-array>
+</resources>
